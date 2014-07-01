@@ -8,7 +8,7 @@ Searching your code base only works up to certain point and then you realize tha
 For example how would you find:
 
  - All occurences of `<script>` tags that link to an external file that are **NOT** in the `/util/` directory?
- - All files containing form elements *button*, *input*, *select*, *textarea* but no *form* element?
+ - All files containing form elements `button`, `input`, `select`, `textarea` but no `form` element?
  - All occurences of HTML5 `data-???` attributes and their associated values?
  - etc.
 
