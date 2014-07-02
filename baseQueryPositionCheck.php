@@ -12,8 +12,8 @@
 <?php
 //CONFIGURATION SECTION
 
-$rootPath = "c:/dev/workspace/trunkmaven/PCCWeb/WebRoot/";//e.g. "c:/projects/blue_phoenix"
-$editorPath = "C:\dev\software\HippoEDIT\HippoEdit.exe";//e.g. "c:\apps\sublime\sublime.exe"
+$rootPath = "c:/CHANGE_THIS_VALUE/";//e.g. "c:/projects/blue_phoenix"
+$editorPath = "c:\CHANGE_THIS_VALUE";//e.g. "c:\apps\sublime\sublime.exe"
 $timeLimitPerIteration = 30;//in seconds to push the default execution time limit to (PHP's default is 30)
 $iterationBreakCount = 500;//number of files to scan (regardless of type) before forcing a break out
 $searchFileExtensions = array('php', 'inc', 'asp', 'html');//e.g. ('php', 'inc', 'html', 'jsp', 'asp')
