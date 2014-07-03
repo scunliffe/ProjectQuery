@@ -40,8 +40,6 @@ $objects = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($rootPat
 $processedFileCount = 0;
 $matchingFileCount = 0;
 
-$includesMap = array();
-$includeFileName = '';
 foreach($objects as $object){
 	if($object->isFile()){
 		$processedFileCount++;
