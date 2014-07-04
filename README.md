@@ -14,7 +14,7 @@ For example how would you find:
 
 This can be accomplished in pretty much any language however I chose PHP as a simple solution that can be run across a large code base and can be scripted easily and quickly (without compiling) by anyone with access to Google. ;-)
 
-Start with the `baseQuery.php` file and roll your own custom query or take any of the sample queries (to be added shortly) and adjust to suit your needs.
+Start with the `baseQuery.php` file and roll your own custom query or take any of the sample queries and adjust to suit your needs.
 
 
 Requirements / Features
@@ -27,7 +27,7 @@ Requirements / Features
  - Easily search for multiple keywords... and compare their match positions within a file
  - Basic result details provided by default, fully customizable with no restrictions
 
-Example Query Templates
+Sample Query Templates
 =======================
 
 The following templates will get you started... just pick the one that best matches your situation.
