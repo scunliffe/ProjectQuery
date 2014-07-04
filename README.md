@@ -1,6 +1,8 @@
 ProjectQuery
 ============
 
+![ProjectQuery Logo][5]
+
 Utilities to query your project code base for various patterns/conditions.
 
 Searching your code base only works up to certain point and then you realize that a Regular Expression has severe limitations.
@@ -43,3 +45,4 @@ The following templates will get you started... just pick the one that best matc
 [2]: https://github.com/scunliffe/ProjectQuery/blob/master/baseQueryIncludeThisExcludeThis.php
 [3]: https://github.com/scunliffe/ProjectQuery/blob/master/baseQueryPositionCheck.php
 [4]: https://github.com/scunliffe/ProjectQuery/blob/master/baseQueryReturnMatches.php
+[5]: https://raw.githubusercontent.com/scunliffe/ProjectQuery/master/projectquery.png
