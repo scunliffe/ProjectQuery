@@ -26,3 +26,20 @@ Requirements / Features
  - Easily search for keywords/regexes within files to "include" and likewise search for keywords/regexes to "exclude"
  - Easily search for multiple keywords... and compare their match positions within a file
  - Basic result details provided by default, fully customizable with no restrictions
+
+Example Query Templates
+=======================
+
+The following templates will get you started... just pick the one that best matches your situation.
+
+ - Base template to recurse all files ([baseQuery.php][1])
+ - Find all files including `X` but excluding `Y` ([baseQueryIncludeThisExcludeThis.php][2])
+ - Find all files that include `X` and `Y` but **not** in the desired order ([baseQueryPositionCheck.php][3])
+ - Find arbitrary values and return each matching file with a list of matches ([baseQueryReturnMatches.php][4])
+ - (more to come!)
+
+
+[1]: https://github.com/scunliffe/ProjectQuery/blob/master/baseQuery.php
+[2]: https://github.com/scunliffe/ProjectQuery/blob/master/baseQueryIncludeThisExcludeThis.php
+[3]: https://github.com/scunliffe/ProjectQuery/blob/master/baseQueryPositionCheck.php
+[4]: https://github.com/scunliffe/ProjectQuery/blob/master/baseQueryReturnMatches.php
